@@ -1,36 +1,33 @@
 # Cadastro de carros
 
 ## Requisitos Funcionais -> RF
-- [ ] Deve ser possível cadastrar um novo carro
+- [x] Deve ser possível cadastrar um novo carro
 
 ## Regras de Negócio -> RN
-- [ ] Não deve ser possível cadastrar um carro com uma placa já existente
-- [ ] Não deve ser possível alterar a placa de um carro já cadastrado
-- [ ] O carro deve ser cadastrado estando disponível por padrão
-- [ ] Somente usuários administradores podem cadastrar carros
+- [x] Não deve ser possível cadastrar um carro com uma placa já existente
+- [x] O carro deve ser cadastrado estando disponível por padrão
+- [x] Somente usuários administradores podem cadastrar carros
 ---
 # Listagem de carros
 
 ## Requisitos Funcionais -> RF
-- [ ] Deve ser possível listar todos os carros disponíveis
-- [ ] Deve ser possível listar todos os carros pelo nome do carro
-- [ ] Deve ser possível listar todos os carros pelo nome da categoria
-- [ ] Deve ser possível listar todos os carros pelo nome da marca
+- [x] Deve ser possível listar todos os carros disponíveis
+- [x] Deve ser possível listar todos os carros pelo nome do carro
+- [x] Deve ser possível listar todos os carros pelo nome da categoria
+- [x] Deve ser possível listar todos os carros pelo nome da marca
 
 ## Regras de Negócio -> RN
-- [ ] O usuário não precisar estar logado no sistema para conseguir listar os carros
+- [x] O usuário não precisar estar logado no sistema para conseguir listar os carros
 ---
 # Cadastro de especificação no carro
 
 ## Requisitos Funcionais -> RF
-- [ ] Deve ser possível cadastrar uma especificação para um carro
-- [ ] Deve ser possível listar todas as especificações
-- [ ] Deve ser possível listar todos os carros
+- [x] Deve ser possível cadastrar uma ou mais especificações para um carro
 
 ## Regras de Negócio -> RG
-- [ ] Não deve ser possível cadastrar uma especificação para um carro não cadastrado
-- [ ] Não deve ser possível cadastrar a mesma especificação mais de uma vez no mesmo carro
-- [ ] Somente usuários administradores podem cadastrar especificações
+- [X] Não deve ser possível cadastrar especificações para um carro não cadastrado
+- [X] Não deve ser possível cadastrar a mesma especificação mais de uma vez no mesmo carro
+- [X] Somente usuários administradores podem cadastrar especificações
 ---
 # Cadastro de imagem do carro
 

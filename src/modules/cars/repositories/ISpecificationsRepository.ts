@@ -2,6 +2,7 @@ import { ICreateSpecificationDTO } from '../dtos/ICreateSpecificationDTO';
 import { Specification } from '../infra/typeorm/entities/Specification';
 
 export interface ISpecificationsRepository {
-  create(data: ICreateSpecificationDTO): Promise<void>;
+  create(data: ICreateSpecificationDTO): Promise<Specification>;
   findByName(name: string): Promise<Specification>;
+  findManyByIds(ids: string[]): Promise<Specification[]>;
 }

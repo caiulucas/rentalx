@@ -14,7 +14,7 @@ export class CategoriesRepositoryInMemory implements ICategoriesRepository {
     return this.categories.find(category => category.name === name);
   }
 
-  async list(): Promise<Category[]> {
+  async findMany(): Promise<Category[]> {
     return this.categories;
   }
   async create(data: ICreateCategoryDTO): Promise<void> {

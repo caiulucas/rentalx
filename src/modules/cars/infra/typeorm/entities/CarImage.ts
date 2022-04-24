@@ -1,28 +1,16 @@
 import { Column, CreateDateColumn, Entity, PrimaryColumn } from 'typeorm';
 import { v4 as uuidV4 } from 'uuid';
 
-@Entity('users')
-export class User {
+@Entity('cars_images')
+export class CarImage {
   @PrimaryColumn()
   id?: string;
 
   @Column()
-  name: string;
+  car_id: string;
 
   @Column()
-  password: string;
-
-  @Column()
-  email: string;
-
-  @Column()
-  driver_license: string;
-
-  @Column()
-  is_admin: boolean;
-
-  @Column()
-  avatar: string;
+  image_name: string;
 
   @CreateDateColumn()
   created_at: Date;
